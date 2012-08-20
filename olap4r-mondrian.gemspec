@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Filip Tepper"]
-  s.date = "2012-08-17"
+  s.date = "2012-08-20"
   s.description = "Mondrian driver for olap4r"
   s.email = "filip@tepper.pl"
   s.extra_rdoc_files = [
@@ -19,6 +19,8 @@ Gem::Specification.new do |s|
   s.files = [
     "Gemfile",
     "Gemfile.lock",
+    "LICENSE",
+    "README.md",
     "Rakefile",
     "VERSION",
     "lib/commons-collections.jar",
